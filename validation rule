@@ -1,0 +1,1 @@
+IF(DAY(EndDate) < DAY(StartDate), (MONTH(EndDate)) + (12*(YEAR(EndDate)-(YEAR(StartDate)))) - (MONTH(StartDate)) - 1, (MONTH(EndDate)) + (12*(YEAR(EndDate)-YEAR(StartDate))) - MONTH(StartDate))
